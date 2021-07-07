@@ -5,14 +5,18 @@ body{
 
 h1{
     font-size: 60px;
+    padding-left: 10px;
 }
 h2{
-    font-size: 30px;
+    font-size: 40px;
+    font-weight: 800;
 }
+
 section{
-    display: flex;
-    margin-top: 100px;
     margin-bottom: 100px;
+}
+.flexible{
+    display: flex;
 }
 .highlight{
     color: indigo;
@@ -25,6 +29,11 @@ section{
 
 .intro img{
     width: 90%;
+    margin-top: 40px;
+}
+
+.less-width{
+    width: 40%;
 }
 
 .button-link{
@@ -34,4 +43,53 @@ section{
     background-image: linear-gradient(blue,red);
     padding: 3px;
     color: white;
+}
+
+.topbackground{
+        background-image: url(image/top-banner.png);
+        background-repeat: no-repeat;
+}
+
+.Solution{
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 5%;
+
+}
+
+.service-item{
+    width: 40%;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-bottom: 3%;
+    margin-left: 8%;
+    margin-right: 8%;
+    box-shadow: 10px 10px 50px black;
+    border-radius: 10px;
+    border-left: 10px solid;
+}
+
+#web-develop{
+
+    border-image: linear-gradient(darkblue, white);
+    border-left: 5px solid;
+    border-image-slice: 1;
+}
+
+#marketing-service{
+    border-image: linear-gradient(rgb(139, 0, 93), rgb(255, 255, 255));
+    border-left: 5px solid;
+    border-image-slice: 1;
+}
+
+.service-area{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-size: 5%;
+    background-position: left;
+}
+
+footer{
+    text-align: center;
 }
