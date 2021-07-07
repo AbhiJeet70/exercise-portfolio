@@ -39,9 +39,9 @@ section{
 .button-link{
     text-decoration: none;
     border-color: white;
-    border-radius: 5px;
+    border-radius: 5px ;
     background-image: linear-gradient(blue,red);
-    padding: 3px;
+    padding: 5px 20px;
     color: white;
 }
 
@@ -90,6 +90,6 @@ section{
     background-position: left;
 }
 
-footer{
+footer p{
     text-align: center;
 }
